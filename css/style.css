@@ -1,0 +1,95 @@
+
+body{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1526642738196-ad8ed2d50805?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80);
+}
+
+
+
+.logo{  /* center ma krne image*/
+    display: block;  
+    margin: auto;
+    width: 100px;
+    height:100px ;
+    
+}
+
+
+
+
+.container{
+    border-radius: 13px;
+    max-width: 955px;
+    background-color:transparent;
+     margin: auto;
+     height: 60vh; 
+     padding: 33px;
+     overflow-y: auto ;
+     margin-bottom: 23px ;
+     border: cornflowerblue;
+         /*center krne*/
+}
+
+.message{
+    background-color: whitesmoke;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.left{
+
+    float: left;
+    clear: both;
+}
+
+#send-container{
+
+    display: block;
+    margin: auto;
+   text-align: center;
+   max-width: 1031px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+#messageInp{
+    width: 80%;
+  border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.btn{
+    margin: 0.5px;
+    cursor: pointer;
+    border: 2px solid blue;
+    border-radius: 6px;
+    height: 34px;
+    width: 60px;
+    color: rgb(red, green, rgba(0, 0, 180, 0.479));
+    background: cornflowerblue;
+    
+
+}
+
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
